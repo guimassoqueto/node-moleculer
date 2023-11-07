@@ -1,7 +1,7 @@
-h:
-	npx husky install
+install:
+	npx husky install && npm install
 
-b:
+build:
 	npm run build
 
 ts:
